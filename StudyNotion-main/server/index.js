@@ -27,7 +27,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://your-project-name.vercel.app"],
+    origin: ["https://rural-q1prgql84-divyesh-singh-chauhan-s-projects.vercel.app"],
     credentials: true,
   })
 );
