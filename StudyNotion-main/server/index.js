@@ -27,7 +27,10 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: ["https://rural-q1prgql84-divyesh-singh-chauhan-s-projects.vercel.app"],
+    origin:[
+      "https://rural-edu-ten.vercel.app", 
+      "http://localhost:3000"
+    ],
     credentials: true,
   })
 );
