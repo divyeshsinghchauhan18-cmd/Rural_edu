@@ -31,6 +31,11 @@ app.use(
       "https://rural-edu-ten.vercel.app", 
       "http://localhost:3000"
     ],
+
+    origin: ["https://your-permanent-vercel-url.vercel.app",
+  "http://localhost:3000"
+],
+
     credentials: true,
   })
 );
